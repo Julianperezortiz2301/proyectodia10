@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cabecera{
+    margin: 10px;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecera nav a{
+    padding: 6px;
+}
+
+.section-proyecto{
+    width: auto;
+}
+
+.section-proyecto h1{
+    margin: 10px;
+
+}
+
+.section-proyecto p{
+    padding: 5px;
+}
+
+.cajas{
+    display: flex;
+    width: auto;
+    height: 500px;
+}
+
+.caja{
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: auto;
+    height: 300px;
+}
+
+.cajas p{
+    font-family: cursive;
+    font-size: small;
+    text-wrap: balance;
+    letter-spacing: 0.5px;
+    margin: 5px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+
+.caja h2{
+    text-align: center;
+
+}
+
+.btn{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
